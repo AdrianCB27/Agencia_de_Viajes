@@ -1,4 +1,4 @@
-![Logo](https://github.com/AdrianCB27/Agencia_de_Viajes/blob/master/AI%20Image%20Folder/Logo/travel-agency-logo.png)
+<img src="https://github.com/AdrianCB27/Agencia_de_Viajes/blob/master/AI%20Image%20Folder/Logo/travel-agency-logo.png" width="250" height="250">
 
 # Práctica Grupal Tema 2 - Agencia de Viajes
 
