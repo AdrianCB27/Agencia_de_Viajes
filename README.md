@@ -1,3 +1,5 @@
+![Logo]()
+
 # Práctica Grupal Tema 2 - Agencia de Viajes
 
 Este repositorio contiene el código fuente de una aplicación diseñada para una agencia de viajes que permite repartir el coste de un viaje grupal entre los miembros del grupo.
