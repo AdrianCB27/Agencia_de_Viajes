@@ -19,7 +19,7 @@ public class Main {
             if (eleccion == 1) {
                 datosIntroducidos = true;
                 // lógica para introducir los gastos
-                System.out.println("xd");
+
                 System.out.println("Gastos de los viajeros introducidos.");
             } else if (eleccion == 2) {
                 if (!datosIntroducidos) {
@@ -42,5 +42,6 @@ public class Main {
                 System.out.println("Opción no válida. Por favor, intenta de nuevo.");
             }
         } while (eleccion != 4);
+        System.out.println("xdddddd");
     }
 }
