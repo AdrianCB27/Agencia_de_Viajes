@@ -15,6 +15,7 @@ public class Main {
             System.out.println("4. Salir");
             System.out.print("Elige una opción: ");
             eleccion = scanner.nextInt();
+            float viajero1 = 0, viajero2 = 0, viajero3 = 0, viajero4 = 0, viajero5 = 0;
 
             if (eleccion == 1) {
                 datosIntroducidos = true;
@@ -41,6 +42,6 @@ public class Main {
                 System.out.println("Opción no válida. Por favor, intenta de nuevo.");
             }
         } while (eleccion != 4);
-        System.out.println("Hola");
+
     }
 }
