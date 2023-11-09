@@ -19,7 +19,7 @@ public class Main {
             if (eleccion == 1) {
                 datosIntroducidos = true;
                 // lógica para introducir los gastos
-
+                System.out.println("xd");
                 System.out.println("Gastos de los viajeros introducidos.");
             } else if (eleccion == 2) {
                 if (!datosIntroducidos) {
