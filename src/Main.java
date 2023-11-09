@@ -16,19 +16,39 @@ public class Main {
             System.out.print("Elige una opción: ");
             eleccion = scanner.nextInt();
             float viajero1 = 0, viajero2 = 0, viajero3 = 0, viajero4 = 0, viajero5 = 0;
+            int numeroViajeros=5;
+            float total=0;
 
             if (eleccion == 1) {
                 datosIntroducidos = true;
                 // lógica para introducir los gastos
                 System.out.println("¿Cuanto tiene que pagar el viajero 1?");
-
+                viajero1 = scanner.nextFloat();
                 System.out.println("¿Cuanto tiene que pagar el viajero 2?");
-
+                viajero2 = scanner.nextFloat();
                 System.out.println("¿Cuanto tiene que pagar el viajero 3?");
+                viajero3 = scanner.nextFloat();
+                if (viajero3<0) {
+                    viajero3=0;
+                    numeroViajeros-=3;
+                }else {
+                    System.out.println("¿Cuanto tiene que pagar el viajero 4?");
+                    viajero4 = scanner.nextFloat();
+                    if (viajero4<0) {
+                        viajero4=0;
+                        numeroViajeros-=2;
+                    }else {
+                        System.out.println("¿Cuanto tiene que pagar el viajero 5?");
+                        viajero5 = scanner.nextFloat();
+                        if (viajero5<0) {
+                            viajero5=0;
+                            numeroViajeros--;
+                        }
+                    }
+                }
 
-                System.out.println("¿Cuanto tiene que pagar el viajero 4?");
-
-                System.out.println("¿Cuanto tiene que pagar el viajero 5?");
+                total=viajero1+viajero2+viajero3+viajero4+viajero5;
+                System.out.println(total +" "+numeroViajeros);
 
                 System.out.println("Gastos de los viajeros introducidos.");
             } else if (eleccion == 2) {
