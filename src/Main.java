@@ -42,6 +42,6 @@ public class Main {
                 System.out.println("Opción no válida. Por favor, intenta de nuevo.");
             }
         } while (eleccion != 4);
-        System.out.println("xdddddd");
+        System.out.println("xdddd");
     }
 }
