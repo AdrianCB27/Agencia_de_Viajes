@@ -16,11 +16,12 @@ public class Main {
             System.out.print("Elige una opción: ");
             eleccion = scanner.nextInt();
             float viajero1 = 0, viajero2 = 0, viajero3 = 0, viajero4 = 0, viajero5 = 0;
-            int numeroViajeros=5;
-            float total=0;
+            int numeroViajeros = 5;
+            float total = 0;
 
             if (eleccion == 1) {
-                datosIntroducidos = true;
+                datosIntroducidos = true;                                                                       // si viajero > media --> viajero - media --> le deben
+                                                                                                                // si viajero < media --> media - viajero --> moroso
                 // lógica para introducir los gastos
                 System.out.println("¿Cuanto tiene que pagar el viajero 1?");
                 viajero1 = scanner.nextFloat();
@@ -28,20 +29,20 @@ public class Main {
                 viajero2 = scanner.nextFloat();
                 System.out.println("¿Cuanto tiene que pagar el viajero 3?");
                 viajero3 = scanner.nextFloat();
-                if (viajero3<0) {
-                    viajero3=0;
-                    numeroViajeros-=3;
+                if (viajero3 < 0) {
+                    viajero3 = 0;
+                    numeroViajeros -=3;
                 }else {
                     System.out.println("¿Cuanto tiene que pagar el viajero 4?");
                     viajero4 = scanner.nextFloat();
-                    if (viajero4<0) {
-                        viajero4=0;
-                        numeroViajeros-=2;
+                    if (viajero4 < 0) {
+                        viajero4 = 0;
+                        numeroViajeros -=2;
                     }else {
                         System.out.println("¿Cuanto tiene que pagar el viajero 5?");
                         viajero5 = scanner.nextFloat();
-                        if (viajero5<0) {
-                            viajero5=0;
+                        if (viajero5 < 0) {
+                            viajero5 = 0;
                             numeroViajeros--;
                         }
                     }
@@ -75,3 +76,7 @@ public class Main {
         System.out.println("Hola");
     }
 }
+
+
+
+
