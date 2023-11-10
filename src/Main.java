@@ -104,7 +104,6 @@ public class Main {
                         System.out.println("El viajero 5 debe "+viajero5);
                     }
 
-
                     System.out.println("Reparto de gastos mostrado.");
                 }
             } else if (eleccion == 4) {
